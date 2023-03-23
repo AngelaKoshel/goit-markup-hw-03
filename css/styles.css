@@ -1,0 +1,206 @@
+:root {
+    --title-three-color: #2E2F42;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color:#FFFFFF
+}
+
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+
+/* ----------------------------HEADER-------------------------------------- */
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+    text-transform: uppercase;
+}
+
+.logo-span{
+    color: #2e2f42;
+}
+.header-list {
+    list-style: none
+}
+
+.header-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+.header-link:is(:hover, :focus){
+    color: #404bbf;
+}
+
+
+/* ----------------------------ADDRESS-------------------------------------- */
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    color: #434455;
+    line-height: 1.5;
+}
+.address-link:is(:hover, :focus){
+    color: #404bbf;
+}
+
+/* ----------------------------HERO-FIRSЕ-SECTION-------------------------------------- */
+.hero {
+    background: #2E2F42;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
+}
+.hero-btn:is(:hover, :focus) {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+/* ----------------------------FEATURE-TWO-SECTION-------------------------------------- */
+
+.feature-item {
+    list-style-type: none;
+}
+
+.feature-title-three {
+    color: var(--title-three-color,#2E2F42);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.feature-paragraph {
+    line-height: 1.5;
+}
+/* ----------------------------PRODUCT-THIRD-SECTION-------------------------------------- */
+
+.product-title {
+    color: #2E2F42;
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.product-item {
+    list-style-type: none;
+}
+/* ----------------------------TEAM-FOURTH-SECTION-------------------------------------- */
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    color: #2E2F42;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-item {
+    list-style-type: none;
+    background-color: #FFFFFF;
+}
+.team-title-three{
+    color: var(--title-three-color,#2E2F42);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.team-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* ----------------------------FILTERS-------------------------------------- */
+
+.filters-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+
+.filters-btn:is(:hover, :focus) {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.portfolio-title {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-filter {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+/* ----------------------------FOOTER-------------------------------------- */
+.footer {
+    background: #2E2F42;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+    text-transform: uppercase;
+}
+
+.footer-span{
+    color: #f4f4fd;
+}
+.footer-paragraph {
+    color: #F4F4FD;
+}
