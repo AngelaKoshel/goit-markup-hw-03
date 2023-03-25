@@ -1,12 +1,15 @@
 :root {
-    --title-three-color: #2E2F42;
+    --color-iris: #4d5ae5;
+    --color-navy-blue: #2e2f42;
+    --color-slate: #434455;
+    --color-white: #ffffff;
 }
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     letter-spacing: 0.02em;
-    color: #434455;
-    background-color:#FFFFFF;
+    color: var(--color-slate,#434455);
+    background-color: var(--color-white,#FFFFFF);
 }
 
 .visually-hidden {
@@ -49,7 +52,6 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin: 0 auto; */
 }
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -57,12 +59,12 @@ ul{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #4d5ae5;
+    color:var(--color-iris, #4d5ae5);
     text-transform: uppercase;
     margin-left: 156px;
 }
 .logo-span{
-    color: #2e2f42;
+    color:var(--color-grey, #2e2f42);
 }
 .header-list {
     display: flex;
@@ -77,7 +79,7 @@ ul{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--color-grey,#2e2f42);
     text-decoration: none;
 }
 
@@ -103,7 +105,7 @@ ul{
     margin-right: 156px;
 }
 .address-link {
-    color: #434455;
+    color: var(--color-slate, #434455);
     line-height: 1.5;
 }
 .address-link:is(:hover, :focus){
@@ -112,7 +114,7 @@ ul{
 
 /* ----------------------------HERO-FIRSЕ-SECTION-------------------------------------- */
 .hero {
-    background: #2E2F42;
+    background: var(--color-grey,#2e2f42);
 }
 .hero-container{
     display: flex;
@@ -122,7 +124,7 @@ ul{
     height: 600px;
 }
 .hero-title {
-    color: #FFFFFF;
+    color: var(--color-white, #FFFFFF);
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -136,8 +138,8 @@ ul{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
-    background-color: #4D5AE5;
+    color: var(--color-white, #FFFFFF);
+    background-color: var(--color-iris, #4d5ae5);
     width: 169px;
     height: 56px;
 }
@@ -159,7 +161,7 @@ ul{
     width: 264px;
 }
 .feature-title-three {
-    color: var(--title-three-color,#2E2F42);
+    color: var(--color-grey,#2E2F42);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -172,7 +174,7 @@ ul{
 /* ----------------------------PRODUCT-THIRD-SECTION-------------------------------------- */
 
 .product-title {
-    color: #2E2F42;
+    color: var(--color-grey, #2e2f42);
     font-size: 36px;
     line-height: 1.11;
     font-weight: 700;
@@ -201,7 +203,7 @@ ul{
     gap: 24px;
 }
 .team-title {
-    color: #2E2F42;
+    color:var(--color-grey, #2e2f42);
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -212,10 +214,10 @@ ul{
 
 .team-item {
     list-style-type: none;
-    background-color: #FFFFFF;
+    background-color: var(--color-white, #FFFFFF);
 }
 .team-title-three{
-    color: var(--title-three-color,#2E2F42);
+    color: var(--color-grey, #2e2f42);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -236,13 +238,15 @@ ul{
     padding-top: 96px;
     gap: 24px;
 }
+
+/* З кнопками не доробила ширини бо не знаю як, спитала у чаті але вже ніч, коли я це спитала. */
 .filters-btn {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color: var(--color-iris, #4d5ae5);
     background: #F4F4FD;
     height: 48px;
     border: 1px solid #E7E9FC;
@@ -268,12 +272,12 @@ ul{
 
 .filters-btn:is(:hover, :focus) {
     background-color: #404BBF;
-    color: #FFFFFF;
+    color: var(--color-white, #FFFFFF);
     cursor: pointer;
 }
 
 .portfolio-title {
-    color: #2E2F42;
+    color: var(--color-grey, #2e2f42);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -282,7 +286,6 @@ ul{
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    /* margin-left: 156px; */
     margin: 0px 156px;
     padding-top: 72px;
 }
@@ -297,7 +300,7 @@ ul{
 }
 /* ----------------------------FOOTER-------------------------------------- */
 .footer {
-    background: #2E2F42;
+    background: var(--color-grey, #2e2f42);
 }
 .footer-box{
     display: block;
@@ -310,7 +313,7 @@ ul{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #4d5ae5;
+    color: var(--color-iris, #4d5ae5);
     text-transform: uppercase;
 }
 
