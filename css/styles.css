@@ -170,9 +170,7 @@ ul{
     line-height: 1.5;
 }
 /* ----------------------------PRODUCT-THIRD-SECTION-------------------------------------- */
-/* .product-width{
-    width: 1128px;
-} */
+
 .product-title {
     color: #2E2F42;
     font-size: 36px;
@@ -223,8 +221,7 @@ ul{
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    /* margin: 32px 16px;
-    padding-bottom: 8px; */
+
 }
 .team-paragraph{
     font-size: 16px;
@@ -232,7 +229,13 @@ ul{
     text-align: center;
 }
 /* ----------------------------FILTERS-------------------------------------- */
-
+.filters-list{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 96px;
+    gap: 24px;
+}
 .filters-btn {
     font-family: inherit;
     font-weight: 500;
@@ -241,6 +244,26 @@ ul{
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background: #F4F4FD;
+    height: 48px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    width: 'fit-content';
+}
+/* Не розумію для чого тут ордер чи взагалі правильно його зробила. */
+.order-zero{
+    order: 0;
+}
+.order-one{
+    order: 1;
+}
+.order-two{
+    order: 2;
+}
+.order-three{
+    order: 3;
+}
+.order-four{
+    order: 4;
 }
 
 .filters-btn:is(:hover, :focus) {
@@ -256,7 +279,16 @@ ul{
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 156px; */
+    margin: 0px 156px;
+    padding-top: 72px;
+}
+.portfolio-item{
+    flex-basis: calc((100% - 24px) / 3);
+}
 .portfolio-filter {
     font-size: 16px;
     line-height: 1.5;
@@ -267,7 +299,11 @@ ul{
 .footer {
     background: #2E2F42;
 }
-
+.footer-box{
+    display: block;
+    margin-left: 156px;
+    padding: 100px 0px;
+}
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
