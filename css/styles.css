@@ -11,7 +11,9 @@ body{
     color: var(--color-slate,#434455);
     background-color: var(--color-white,#FFFFFF);
 }
-
+header{
+    border-bottom-style: 1px #E7E9FC;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
