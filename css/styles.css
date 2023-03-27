@@ -4,6 +4,9 @@
     --color-slate: #434455;
     --color-white: #ffffff;
 }
+h1,h2,h3,h4,h5,h6,p,div{
+    margin: 0px;
+}
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -11,8 +14,11 @@ body{
     color: var(--color-slate,#434455);
     background-color: var(--color-white,#FFFFFF);
 }
-header{
-    border-bottom-style: 1px #E7E9FC;
+
+header {
+    border-bottom: 1px solid #E7E9FC;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .visually-hidden {
     position: absolute;
@@ -31,6 +37,15 @@ ul{
     margin: 0px;
     padding: 0px;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0px;
+}
 .list{
     list-style: none;
 }
@@ -39,7 +54,7 @@ ul{
 }
 .container{
     display: block;
-    width: 1470px;
+    width: 1158px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
@@ -48,7 +63,6 @@ ul{
 /* ----------------------------HEADER-------------------------------------- */
 .header-flex-box{
     display: flex;
-    align-items: flex-start;
 }
 .header-navigation{
     display: flex;
@@ -63,7 +77,6 @@ ul{
     letter-spacing: 0.03em;
     color:var(--color-iris, #4d5ae5);
     text-transform: uppercase;
-    margin-left: 156px;
 }
 .logo-span{
     color:var(--color-grey, #2e2f42);
@@ -73,8 +86,6 @@ ul{
     list-style: none;
     margin-left: 76px;
     gap: 0px 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-link {
@@ -104,7 +115,6 @@ ul{
     padding-bottom: 24px;
     gap: 40px;
     margin-left: 332px;
-    margin-right: 156px;
 }
 .address-link {
     color: var(--color-slate, #434455);
@@ -155,7 +165,6 @@ ul{
 .feature-list{
     display: flex;
     padding: 120px 0px;
-    margin: 0px 156px;
     gap: 24px;
 }
 .feature-item {
@@ -187,7 +196,6 @@ ul{
 }
 .product-list{
     display: flex;
-    margin: 0px 156px;
     gap: 24px;
     padding-bottom: 120px;
 }
@@ -287,7 +295,6 @@ ul{
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 156px;
     padding-top: 72px;
 }
 .portfolio-item{
@@ -305,7 +312,6 @@ ul{
 }
 .footer-box{
     display: block;
-    margin-left: 156px;
     padding: 100px 0px;
 }
 .footer-logo {
